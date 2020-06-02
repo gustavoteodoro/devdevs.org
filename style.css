@@ -15,6 +15,10 @@ section {
   width: 300px;
 }
 
+section .email {
+  font-size: 0.9em;
+}
+
 a {
   color: white;
 }
