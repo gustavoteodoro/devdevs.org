@@ -51,6 +51,7 @@ section .contact-icons img {
 div.content {
   flex: 1;
   margin-left: 10%;
+  overflow: hidden;
 }
 
 div.content hr {
