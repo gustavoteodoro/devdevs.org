@@ -13,7 +13,6 @@ p {
 
 section {
   width: 300px;
-  margin-top: 24px;
 }
 
 section .email {
@@ -53,36 +52,12 @@ div.content {
   flex: 1;
   margin-left: 10%;
   overflow: hidden;
-  margin-top: 24px;
 }
 
 div.content hr {
   width: 70%;
   color: white;
   margin: 50px auto;
-}
-
-#jovens-hackers {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 12px 0;
-  background-color: black;
-  box-shadow: 0px 1px 8px #9191918c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#jovens-hackers > span {
-  text-decoration: underline;
-}
-
-#jovens-hackers > img {
-  height: 18px;
 }
 
 @media only screen and (max-device-width: 667px) {
