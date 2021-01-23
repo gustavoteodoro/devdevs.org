@@ -31,3 +31,10 @@
   border-radius: 4px;
   margin-top: 12px;
 }
+
+@media only screen and (max-device-width: 667px) {
+  .form-container {
+    width: 85%;
+    max-width: initial;
+  }
+}
