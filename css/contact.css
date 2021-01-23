@@ -1,0 +1,33 @@
+.form-container {
+  width: 40%;
+  max-width: 480px;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.form-container form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form label {
+  font-size: 0.825em;
+}
+
+.form-container form input {
+  margin-bottom: 18px;
+  min-height: 32px;
+  border-radius: 4px;
+  padding-left: 6px;
+}
+
+.form-container form button[type="submit"] {
+  width: 60%;
+  margin: auto;
+  height: 42px;
+  border-radius: 4px;
+  margin-top: 12px;
+}
